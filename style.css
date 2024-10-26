@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'zahranfont';
+}
+
+header {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2.5em; 
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-image: url('background2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 100%; 
+}
+
+.studentForm {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 600px; 
+    background-color: rgba(40, 58, 41, 0.8); 
+    padding: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    width: 48%; 
+    margin-bottom: 10px; 
+}
+
+label, input, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.1em; 
+}
+
+input[type="text"], input[type="date"], input[type="number"], select {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px; 
+    font-size: 1.1em; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.kanan-bawah {
+    position: fixed;    
+    bottom: 0;          
+    right: 0;           
+    padding: 5px;      
+    background-color: rgba(104, 104, 104, 0.664); 
+    color: white;
+    font-size: 1em;    
+    z-index: 1000;      
+  }
+
+@font-face {
+    font-family: zahranfont; 
+    src: url('Eutopia Embassador.ttf') format('truetype');
+}
+
+
+body {
+    color: #edf2fc;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}

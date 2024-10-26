@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyCustomFont';
+}
+
+
+body {
+    background-image: url('background.jpg'); 
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+}
+
+
+header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.judul-besar {
+    font-size: 4em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.informasi-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.data {
+    text-align: center;
+    max-width: 300px;
+    background-color: rgba(40, 58, 41, 0.8); 
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.foto-item {
+    text-align: center;
+    max-width: 300px;
+    background-color: rgba(40, 58, 41, 0.8); 
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.foto-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.teks-foto {
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.ucapan {
+    font-size: 1em; 
+    color: #e70b0b;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.6);
+
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(104, 104, 104, 0.664); 
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.foto-item img,
+.foto-item video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.back-button {
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    padding: 10px 20px; 
+    font-size: 1.2em; 
+    color: #fff; 
+    background-color: #007BFF; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+}
+
+.kanan-bawah {
+    position: fixed;    
+    bottom: 0;          
+    right: 0;         
+    padding: 5px;     
+    background-color: rgba(104, 104, 104, 0.664); 
+    color: white;
+    font-size: 1em;    
+    z-index: 1000;      
+  }
+
+@font-face {
+    font-family: 'MyCustomFont'; 
+    src: url('Eutopia Embassador.ttf') format('truetype'); 
+}
